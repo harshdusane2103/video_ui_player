@@ -6,7 +6,7 @@
 <div align="center">
   <h3 align="left">Descripation :</h3>
   <p>
-   The Video player API enables developers to integrate audio playback functionality into applications or websites. It provides essential methods to play, pause, stop, seek, or adjust the volume of audio files. Advanced APIs may support playlists, looping, shuffling, and audio effects like equalization or pitch adjustment. They often handle multiple audio formats (e.g., MP3, WAV, AAC) and provide event listeners for actions like track end, error handling, or buffering. Modern APIs, such as HTML5's <audio> element or third-party libraries, are optimized for cross-platform use, including mobile devices. These APIs enhance user experience by enabling seamless audio control and interaction.
+   The Video player API enables developers to integrate audio playback functionality into applications or websites. It provides essential methods to play, pause, stop, seek, or adjust the volume of audio files. Advanced APIs may support playlists, looping, shuffling, and audio effects like equalization or pitch adjustment. They often handle multiple audio formats (e.g., MP4, WAV, AAC) and provide event listeners for actions like track end, error handling, or buffering. Modern APIs, such as HTML5's <audio> element or third-party libraries, are optimized for cross-platform use, including mobile devices. These APIs enhance user experience by enabling seamless audio control and interaction.
   </p>
 </div>
 <div align="center">
