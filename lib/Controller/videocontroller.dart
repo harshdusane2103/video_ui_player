@@ -17,7 +17,7 @@ class HomeProvider extends ChangeNotifier {
 
   // Method to load movies from a JSON string
   Future<void> loadMovies() async {
-    String jsonString = await rootBundle.loadString('assets/json/data.json');
+    String jsonString = await rootBundle.loadString('Assets/Json/video.json');
     List<dynamic> jsonData = jsonDecode(jsonString);
     _movies = jsonData.map((item) => Movie.fromJson(item)).toList();
     notifyListeners();

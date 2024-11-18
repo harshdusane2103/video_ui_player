@@ -6,21 +6,20 @@ class Movie {
   String title;
 
   Movie({
-    required this.description,
-    required this.sources,
-    required this.subtitle,
-    required this.thumb,
-    required this.title,
+    this.description = '',
+    this.sources = '',
+    this.subtitle = '',
+    this.thumb = '',
+    this.title = '',
   });
 
-  // Factory method to create a Movie instance from a JSON map
   factory Movie.fromJson(Map<String, dynamic> json) {
     return Movie(
-      description: json['description'],
-      sources: json['sources'],
-      subtitle: json['subtitle'],
-      thumb: json['thumb'],
-      title: json['title'],
+      description: json['description'] ?? '',
+      sources: json['sources'] ?? '',
+      subtitle: json['subtitle'] ?? '',
+      thumb: json['thumb'] ?? 'https://img.freepik.com/free-photo/fantasy-elephant-illustration_23-2151548441.jpg',
+      title: json['title'] ?? '',
     );
   }
 }
