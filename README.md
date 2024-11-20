@@ -10,10 +10,10 @@
   </p>
 </div>
 <div align="center">
-  <img src="https://github.com/harshdusane2103/video_ui_player/blob/master/1.png", width=21%,height=35%>
+  <img src="  https://github.com/user-attachments/assets/2cc91e6c-4006-485b-a141-f2e15397dd3b", width=21%,height=35%>
   <img src="https://github.com/harshdusane2103/video_ui_player/blob/master/2.png", width=21%,height=35%>
-  
-  
+
+
   
   
 </div>
